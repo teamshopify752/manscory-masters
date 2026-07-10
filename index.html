@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Masonry Masters | Brick & Stone Craft</title>
+  <meta name="description" content="Masonry Masters inspired brick and stone masonry website with animated services, portfolio and quote estimator.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%2320252a'/%3E%3Crect x='12' y='12' width='17' height='17' rx='3' fill='%23cf6a38'/%3E%3Crect x='35' y='12' width='17' height='17' rx='3' fill='%23d3c7b0'/%3E%3Crect x='12' y='35' width='17' height='17' rx='3' fill='%23d3c7b0'/%3E%3Crect x='35' y='35' width='17' height='17' rx='3' fill='%23a94624'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" data-header>
+    <nav class="nav-shell" aria-label="Primary navigation">
+      <a class="brand" href="#home" aria-label="Masonry Masters home">
+        <span class="brand-logo" aria-hidden="true">
+          <img src="https://static.wixstatic.com/media/b6f81c_3d16857295994221bfc9db0c5ae17db3~mv2.png" alt="">
+        </span>
+        <span>
+          <strong>Masonry Masters</strong>
+          <small>Brick & Stone Craft</small>
+        </span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" data-menu-toggle>
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-links" data-nav-links>
+        <a href="#materials">Specialties</a>
+        <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
+        <a href="#quote">Estimate</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero section-band" id="home">
+      <div class="hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Artisanal Craftsmanship</p>
+          <h1>Brick and stone masonry built to endure.</h1>
+          <p class="hero-lede">
+            Inspired by Masonry Masters, this fresh layout presents heritage bricklaying,
+            bespoke stone walls, restorations and consultation-led project planning.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#quote">Request consultation <span aria-hidden="true">&rarr;</span></a>
+            <a class="btn btn-secondary" href="#projects">View projects</a>
+          </div>
+          <div class="hero-stats" aria-label="Business highlights">
+            <div>
+              <strong data-counter="20">0</strong>
+              <span>Years craft</span>
+            </div>
+            <div>
+              <strong data-counter="3">0</strong>
+              <span>Core services</span>
+            </div>
+            <div>
+              <strong data-counter="226">0</strong>
+              <span>Local calls</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual hero-photo-stack reveal">
+          <img class="hero-main-photo" src="https://static.wixstatic.com/media/b6f81c_56ac2b0fae154f7286066a8254207ef0~mv2.jpg/v1/fill/w_948,h_1298,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/c663e527-5d87-4106-9ccd-64c83601a836.jpg" alt="Masonry worker laying brick and stone">
+          <div class="photo-panel">
+            <img src="https://static.wixstatic.com/media/b6f81c_22ba71ab7ac24749abf2c1d2c8d17074~mv2.jpg/v1/fill/w_534,h_356,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/c28d0ebb-5278-47d4-890a-db7e3556df00.jpg" alt="Completed brick and stone masonry project">
+          </div>
+          <div class="visual-badge badge-one">
+            <span>Specialty</span>
+            <strong>Bespoke stone</strong>
+          </div>
+          <div class="visual-badge badge-two">
+            <span>Phone</span>
+            <strong>226 260 2866</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-band intro-band" aria-label="Masonry specialties">
+      <div class="category-strip reveal">
+        <article>
+          <span class="mini-icon brick-icon" aria-hidden="true"></span>
+          <h2>Bricklaying</h2>
+          <p>Clean courses, tight joints and long-lasting walls for homes and estates.</p>
+        </article>
+        <article>
+          <span class="mini-icon stone-icon" aria-hidden="true"></span>
+          <h2>Stone Walls</h2>
+          <p>Natural stone structures, facades and landscape features with crafted texture.</p>
+        </article>
+        <article>
+          <span class="mini-icon paver-icon" aria-hidden="true"></span>
+          <h2>Restoration</h2>
+          <p>Repair, repointing and heritage-minded masonry for existing brick and stone.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-band materials" id="materials">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Masonry Services</p>
+        <h2>Traditional techniques, modern precision.</h2>
+        <p>Service cards are arranged as a new catalog-style experience, not the reference layout.</p>
+      </div>
+
+      <div class="filter-bar reveal" role="group" aria-label="Filter services">
+        <button class="filter-btn is-active" type="button" data-filter="all">All</button>
+        <button class="filter-btn" type="button" data-filter="brick">Brick</button>
+        <button class="filter-btn" type="button" data-filter="stone">Stone</button>
+        <button class="filter-btn" type="button" data-filter="paver">Repair</button>
+      </div>
+
+      <div class="material-grid" data-material-grid>
+        <article class="material-card reveal" data-category="brick">
+          <canvas class="material-canvas" data-texture="clay"></canvas>
+          <div class="card-body">
+            <span class="tag">Brick</span>
+            <h3>Custom Bricklaying</h3>
+            <p>New walls, pillars, garden edges and exposed brick details with aligned courses.</p>
+            <div class="card-meta">
+              <span>Walls and columns</span>
+              <strong>consult</strong>
+            </div>
+          </div>
+        </article>
+
+        <article class="material-card reveal" data-category="brick">
+          <canvas class="material-canvas" data-texture="block"></canvas>
+          <div class="card-body">
+            <span class="tag">Structural</span>
+            <h3>Block & Foundation Work</h3>
+            <p>Strong blockwork and base masonry for additions, walls and practical builds.</p>
+            <div class="card-meta">
+              <span>Measured on site</span>
+              <strong>quote</strong>
+            </div>
+          </div>
+        </article>
+
+        <article class="material-card reveal" data-category="stone">
+          <canvas class="material-canvas" data-texture="slate"></canvas>
+          <div class="card-body">
+            <span class="tag">Stone</span>
+            <h3>Bespoke Stone Walls</h3>
+            <p>Hand-set natural stone walls, facades and features with deliberate texture.</p>
+            <div class="card-meta">
+              <span>Natural finish</span>
+              <strong>consult</strong>
+            </div>
+          </div>
+        </article>
+
+        <article class="material-card reveal" data-category="stone">
+          <canvas class="material-canvas" data-texture="river"></canvas>
+          <div class="card-body">
+            <span class="tag">Facade</span>
+            <h3>Stone Installation</h3>
+            <p>Cladding, accent surfaces and exterior stonework for modern properties.</p>
+            <div class="card-meta">
+              <span>Residential</span>
+              <strong>quote</strong>
+            </div>
+          </div>
+        </article>
+
+        <article class="material-card reveal" data-category="paver">
+          <canvas class="material-canvas" data-texture="paver"></canvas>
+          <div class="card-body">
+            <span class="tag">Repair</span>
+            <h3>Brick Restoration</h3>
+            <p>Careful repairs, joint renewal and patching for weathered brick surfaces.</p>
+            <div class="card-meta">
+              <span>Heritage care</span>
+              <strong>inspect</strong>
+            </div>
+          </div>
+        </article>
+
+        <article class="material-card reveal" data-category="paver">
+          <canvas class="material-canvas" data-texture="cobble"></canvas>
+          <div class="card-body">
+            <span class="tag">Legacy</span>
+            <h3>Stone Repair</h3>
+            <p>Resetting, repointing and blending replacement stone into existing work.</p>
+            <div class="card-meta">
+              <span>On-site match</span>
+              <strong>inspect</strong>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-band services" id="services">
+      <div class="split-layout">
+        <div class="section-heading align-left reveal">
+          <p class="eyebrow">Craft Process</p>
+          <h2>Every stone laid with intention.</h2>
+          <p>
+            The reference site speaks about legacy and traditional technique. This version turns that
+            into a clear service flow for clients who need masonry work planned and priced.
+          </p>
+          <a class="btn btn-dark" href="#contact">Call Zack <span aria-hidden="true">&rarr;</span></a>
+        </div>
+
+        <div class="service-grid">
+          <article class="service-card reveal">
+            <span class="service-icon service-wall" aria-hidden="true"></span>
+            <h3>Consultation</h3>
+            <p>Discuss photos, measurements and design goals before the first material is ordered.</p>
+          </article>
+          <article class="service-card reveal">
+            <span class="service-icon service-clad" aria-hidden="true"></span>
+            <h3>Material Match</h3>
+            <p>Choose brick, stone, mortar color and joint style for a cohesive finish.</p>
+          </article>
+          <article class="service-card reveal">
+            <span class="service-icon service-paver" aria-hidden="true"></span>
+            <h3>Craft Installation</h3>
+            <p>Build with careful alignment, strong bonding and a clean finished surface.</p>
+          </article>
+          <article class="service-card reveal">
+            <span class="service-icon service-repair" aria-hidden="true"></span>
+            <h3>Clean Handoff</h3>
+            <p>Review the work, tidy the site and leave the masonry ready for daily use.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-band process" aria-label="Work process">
+      <div class="section-heading reveal">
+        <p class="eyebrow">How It Works</p>
+        <h2>From raw material to lasting structure.</h2>
+      </div>
+
+      <div class="process-line">
+        <article class="process-step reveal">
+          <span>01</span>
+          <h3>Discuss</h3>
+          <p>Share your masonry goal, location, photos and preferred finish.</p>
+        </article>
+        <article class="process-step reveal">
+          <span>02</span>
+          <h3>Plan</h3>
+          <p>Confirm material, repair scope, access, schedule and site preparation.</p>
+        </article>
+        <article class="process-step reveal">
+          <span>03</span>
+          <h3>Build</h3>
+          <p>Lay brick or stone with craft discipline and modern precision.</p>
+        </article>
+        <article class="process-step reveal">
+          <span>04</span>
+          <h3>Preserve</h3>
+          <p>Finish, point, clean and protect the masonry for long service.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-band projects" id="projects">
+      <div class="section-heading align-left reveal">
+        <p class="eyebrow">Projects</p>
+        <h2>Handcrafted brickwork and natural stone installs.</h2>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card reveal">
+          <img class="project-image" src="https://static.wixstatic.com/media/b6f81c_22ba71ab7ac24749abf2c1d2c8d17074~mv2.jpg/v1/fill/w_534,h_356,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/c28d0ebb-5278-47d4-890a-db7e3556df00.jpg" alt="Finished masonry project">
+          <div>
+            <h3>Brick Feature Work</h3>
+            <p>Warm brick surfaces built with rhythm, alignment and clean jointing.</p>
+          </div>
+        </article>
+        <article class="project-card reveal tall-card">
+          <img class="project-image" src="https://static.wixstatic.com/media/b6f81c_56ac2b0fae154f7286066a8254207ef0~mv2.jpg/v1/fill/w_948,h_1298,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/c663e527-5d87-4106-9ccd-64c83601a836.jpg" alt="Brick and stone masonry craft in progress">
+          <div>
+            <h3>On-Site Craft</h3>
+            <p>Hands-on brick and stone work with durable construction details.</p>
+          </div>
+        </article>
+        <article class="project-card reveal">
+          <img class="project-image" src="https://static.wixstatic.com/media/b6f81c_22ba71ab7ac24749abf2c1d2c8d17074~mv2.jpg/v1/fill/w_534,h_356,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/c28d0ebb-5278-47d4-890a-db7e3556df00.jpg" alt="Brick masonry project detail">
+          <div>
+            <h3>Legacy Repairs</h3>
+            <p>Repair and repointing that respects the original masonry character.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-band quote-band" id="quote">
+      <div class="quote-layout">
+        <div class="section-heading align-left reveal">
+          <p class="eyebrow">Consultation Estimate</p>
+          <h2>Plan the first-pass masonry budget.</h2>
+          <p>Use the calculator for rough planning, then call for a measured quote.</p>
+        </div>
+
+        <form class="quote-panel reveal" data-quote-form>
+          <label>
+            Project area
+            <span class="field-row">
+              <input type="range" min="80" max="2500" value="640" step="20" data-area-range>
+              <input type="number" min="80" max="2500" value="640" step="20" data-area-input>
+            </span>
+            <small>Square feet</small>
+          </label>
+
+          <label>
+            Work type
+            <select data-material-select>
+              <option value="4.8">Bricklaying</option>
+              <option value="8.2">Stone wall / cladding</option>
+              <option value="5.9">Block masonry</option>
+              <option value="6.5">Restoration / repair</option>
+            </select>
+          </label>
+
+          <label class="checkbox-row">
+            <input type="checkbox" data-delivery checked>
+            <span>Include material handling and site protection</span>
+          </label>
+
+          <div class="estimate-output" aria-live="polite">
+            <span>Estimated range</span>
+            <strong data-estimate>$0 - $0</strong>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <section class="section-band testimonials" aria-label="Customer comments">
+      <div class="testimonial-grid">
+        <article class="testimonial-card reveal">
+          <p>"The brickwork feels solid, clean and thoughtfully finished. The consultation made the whole job easier."</p>
+          <strong>Residential Client</strong>
+          <span>Brick wall project</span>
+        </article>
+        <article class="testimonial-card reveal">
+          <p>"The stone choices were explained clearly, and the finished wall has the texture we wanted."</p>
+          <strong>Estate Owner</strong>
+          <span>Stone installation</span>
+        </article>
+        <article class="testimonial-card reveal">
+          <p>"Old joints were repaired without losing the character of the original masonry."</p>
+          <strong>Property Manager</strong>
+          <span>Restoration work</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-band contact" id="contact">
+      <div class="contact-layout">
+        <div class="contact-card reveal">
+          <p class="eyebrow">Contact Masonry Masters</p>
+          <h2>Let’s craft your legacy in stone.</h2>
+          <p>Bring measurements, photos or a simple sketch. Zack can discuss masonry scope and quote options.</p>
+          <ul class="contact-list">
+            <li><strong>Phone</strong><a href="tel:+12262602866">226 260 2866</a></li>
+            <li><strong>Email</strong><a href="mailto:quotes@masonrymasters.example">quotes@masonrymasters.example</a></li>
+            <li><strong>Service</strong><span>Bespoke brick and stone masonry</span></li>
+          </ul>
+        </div>
+
+        <form class="contact-form reveal" data-contact-form>
+          <label>
+            Name
+            <input type="text" name="name" placeholder="Your name" required>
+          </label>
+          <label>
+            Phone
+            <input type="tel" name="phone" placeholder="Phone number" required>
+          </label>
+          <label>
+            Project type
+            <select name="project" required>
+              <option value="">Select one</option>
+              <option>Bricklaying</option>
+              <option>Stone wall</option>
+              <option>Restoration</option>
+              <option>Consultation</option>
+            </select>
+          </label>
+          <label>
+            Message
+            <textarea name="message" rows="4" placeholder="Tell us the size, finish and location"></textarea>
+          </label>
+          <button class="btn btn-primary" type="submit">Send enquiry <span aria-hidden="true">&rarr;</span></button>
+          <p class="form-status" data-form-status aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <strong>Masonry Masters</strong>
+      <span>Specialty: bespoke brick and stone masonry.</span>
+    </div>
+    <a href="#home">Back to top</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
